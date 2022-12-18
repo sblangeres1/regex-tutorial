@@ -51,18 +51,31 @@ Flags are components that modify the default searching of a regex and they are o
 
 ### Grouping and Capturing
 
+Grouping is a useful way to group multiple regex patterns so we dont have to create a capture group. A capturing group gives extra information when we use a regular expression to match a string.
+
 ### Bracket Expressions
 /^#?`([a-f0-9]{6}|[a-f0-9]{3})`$/
+
+Bracket expressions tell us where the beginning of a character class or quantifier statement is. Brackets tell us that any character in them will match. With our example we use parenthesis to define our bracket expression.
 
 ### Greedy and Lazy Match
 /^#`?`([a-f0-9]{6}|[a-f0-9]{3})$/
 
+A greedy match matches elements as many times as it can be. A lazy match matches an element as little times as possible.
+
 ### Boundaries
+
+Boundaries are `\b` or `\B`. `\b` represents an anchor which matches positions where one side is a word and the other is not a word. `\B` matches everything where \b doesn't.
 
 ### Back-references
 
+Back-references match the text that capturing groups already matched. Using opening tag lets the user reuse the tag name for the closing tag. `\1` is often used for this.
+
 ### Look-ahead and Look-behind
+
+Look-ahead shows what follows the current position in the string. Look-behind shows what is behind the current position in the string.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Scottie Blangeres, I am a web development student currently learning at UC Davis Continued Education.
+My GitHub is [sblangeres1](https://github.com/sblangers1)
