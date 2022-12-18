@@ -78,4 +78,4 @@ Look-ahead shows what follows the current position in the string. Look-behind sh
 ## Author
 
 My name is Scottie Blangeres, I am a web development student currently learning at UC Davis Continued Education.
-My GitHub is [sblangeres1](https://github.com/sblangers1)
+My GitHub is [sblangeres1](https://github.com/sblangeres1)
